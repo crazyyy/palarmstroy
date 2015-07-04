@@ -1,0 +1,484 @@
+
+
+.catalog-price {
+  color: red;
+}
+
+/* Start:/bitrix/templates/inner-catalog/components/bitrix/catalog/palarm-catalog/bitrix/catalog.element/.default/style.css*/
+
+.catalog-detail-images .catalog-detail-image {
+  float: left;
+
+  margin-right: 3px;
+  img {
+    max-width: 66px;
+  }
+}
+
+.price-detailed {
+  font-size: 18px;
+
+  margin-bottom: 20px;
+
+  color: rgba(153, 0, 0, 1);
+  span.label {
+    margin-top: 5px;
+    padding: 4px 8px;
+  }
+}
+
+
+#fancybox-loading {
+  position: fixed;
+  z-index: 1104;
+  top: 50%;
+  left: 50%;
+
+  display: none;
+  overflow: hidden;
+
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+
+  cursor: pointer;
+}
+
+* html #fancybox-loading {
+  /* IE6 */
+  position: absolute;
+
+  margin-top: 0;
+}
+
+#fancybox-loading div {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 40px;
+  height: 480px;
+
+  background-image: url('../img/fancybox.png');
+}
+
+#fancybox-overlay {
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+
+  background: #000;
+}
+
+* html #fancybox-overlay {
+  /* IE6 */
+  position: absolute;
+
+  width: 100%;
+}
+
+#fancybox-tmp {
+  display: none;
+  overflow: auto;
+
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+
+#fancybox-wrap {
+  position: absolute;
+  z-index: 1101;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  margin: 0;
+  padding: 20px;
+}
+
+#fancybox-outer {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  background: #fff;
+}
+
+#fancybox-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+
+  outline: none;
+}
+
+#fancybox-hide-sel-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+}
+
+#fancybox-close {
+  position: absolute;
+  z-index: 1103;
+  top: -15px;
+  right: -15px;
+
+  display: none;
+
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+
+  background-image: url('../img/fancybox.png');
+  background-position: -40px 0;
+}
+
+#fancybox_error {
+  font: normal 12px/20px Arial;
+
+  margin: 0;
+  padding: 7px;
+
+  color: #444;
+}
+
+#fancybox-content {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#fancybox-img {
+  line-height: 0;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  vertical-align: top;
+
+  -ms-interpolation-mode: bicubic;
+  border: none;
+  outline: none;
+}
+
+#fancybox-frame {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  border: none;
+}
+
+#fancybox-title {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+
+  position: absolute;
+  z-index: 1102;
+  bottom: 0;
+  left: 0;
+
+  padding: 0 !important;
+}
+
+.fancybox-title-inside {
+  padding: 10px 0;
+
+  text-align: center;
+
+  color: #333;
+}
+
+.fancybox-title-outside {
+  font-weight: bold;
+
+  padding-top: 5px;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.fancybox-title-over {
+  text-align: center;
+
+  color: #fff;
+}
+
+#fancybox-title-over {
+  display: block;
+
+  padding: 10px;
+
+  background-image: url('../img/fancy_title_over.png');
+}
+
+#fancybox-title-wrap {
+  display: inline-block;
+  span {
+    float: left;
+
+    height: 32px;
+  }
+}
+
+#fancybox-title-left {
+  padding-left: 15px;
+
+  background-image: url('../img/fancybox.png');
+  background-repeat: no-repeat;
+  background-position: -40px -90px;
+}
+
+#fancybox-title-main {
+  font-weight: bold;
+  line-height: 29px;
+
+  color: #fff;
+  background-image: url('../img/fancybox-x.png');
+  background-position: 0 -40px;
+}
+
+#fancybox-title-right {
+  padding-left: 15px;
+
+  background-image: url('../img/fancybox.png');
+  background-repeat: no-repeat;
+  background-position: -55px -90px;
+}
+
+#fancybox-left,
+#fancybox-right {
+  position: absolute;
+  z-index: 1102;
+  bottom: 0;
+
+  display: none;
+
+  width: 35%;
+  height: 100%;
+
+  cursor: pointer;
+
+  outline: none;
+  background-image: url('../img/blank.gif');
+}
+
+#fancybox-left {
+  left: 0;
+}
+
+#fancybox-right {
+  right: 0;
+}
+
+#fancybox-left-ico,
+#fancybox-right-ico {
+  position: absolute;
+  z-index: 1102;
+  top: 50%;
+  left: -9999px;
+
+  display: block;
+
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+
+  cursor: pointer;
+}
+
+#fancybox-left-ico {
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -60px;
+}
+
+#fancybox-left:hover,
+#fancybox-right:hover {
+  visibility: visible;
+  /* IE6 */
+}
+
+#fancybox-left:hover span {
+  left: 20px;
+}
+
+#fancybox-right:hover span {
+  right: 20px;
+  left: auto;
+}
+
+.fancy-bg {
+  position: absolute;
+  z-index: 1001;
+
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+
+#fancy-bg-n {
+  top: -20px;
+  left: 0;
+
+  width: 100%;
+
+  background-image: url('../img/fancybox-x.png');
+}
+
+#fancy-bg-ne {
+  top: -20px;
+  right: -20px;
+
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -162px;
+}
+
+#fancy-bg-e {
+  top: 0;
+  right: -20px;
+
+  height: 100%;
+
+  background-image: url('../img/fancybox-y.png');
+  background-position: -20px 0;
+}
+
+#fancy-bg-se {
+  right: -20px;
+  bottom: -20px;
+
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -182px;
+}
+
+#fancy-bg-s {
+  bottom: -20px;
+  left: 0;
+
+  width: 100%;
+
+  background-image: url('../img/fancybox-x.png');
+  background-position: 0 -20px;
+}
+
+#fancy-bg-sw {
+  bottom: -20px;
+  left: -20px;
+
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -142px;
+}
+
+#fancy-bg-w {
+  top: 0;
+  left: -20px;
+
+  height: 100%;
+
+  background-image: url('../img/fancybox-y.png');
+}
+
+#fancy-bg-nw {
+  top: -20px;
+  left: -20px;
+
+  background-image: url('../img/fancybox.png');
+  background-position: -40px -122px;
+}
+
+.equipment-list-card {
+  padding: 10px 14px;
+
+  text-align: center;
+
+  border: 1px solid rgba(235, 235, 235, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.specoffer-price {
+  color: rgba(153, 153, 153, 1);
+}
+
+
+.equipment-mini-card {
+  .h4 {
+    font-size: 18px;
+
+    width: 100%;
+    margin: 12px 0 0 0;
+
+    text-align: center !important;
+  }
+  &.alert {
+    padding: 20px 14px;
+  }
+}
+
+.catalog-price {
+  color: red;
+}
+
+div.catalog-section table td {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.specoffer-price {
+  margin-top: 10px;
+
+  color: rgba(153, 153, 153, 1);
+}
+
+.equipment-mini-card {
+  .h4 {
+    font-size: 14px;
+
+    width: 100%;
+    height: 40px;
+
+    text-align: center !important;
+  }
+  &.alert {
+    padding: 20px 14px 5px 14px;
+  }
+}

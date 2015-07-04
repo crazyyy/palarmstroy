@@ -1,0 +1,684 @@
+
+@media (min-width: 980px) {
+  .navbar {
+    .navbar-inner {
+      padding: 0;
+
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+    }
+    .nav {
+      display: table;
+
+      width: 100%;
+      margin: 0;
+      li {
+        display: table-cell;
+        float: none;
+
+        width: 1%;
+        a {
+          font-weight: bold;
+
+          text-align: center;
+
+          border-right: 1px solid rgba(0, 0, 0, .1);
+          border-left: 1px solid rgba(255, 217, 98, .75);
+        }
+        &:first-child a {
+          border-left: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        &:last-child a {
+          border-right: 0;
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+
+ul.breadcrumb-navigation {
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+
+  list-style: none;
+  li {
+    display: inline;
+
+    padding-left: 15px;
+    &:first-child {
+      padding-left: 0;
+
+      background: none;
+    }
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/nsandrey/mailform/write-us/style.css*/
+
+span.req {
+  color: #f00;
+}
+
+p.ok {
+  font-size: 12pt;
+
+  color: green;
+}
+
+font.errortext {
+  font-size: 12pt;
+
+  color: red;
+}
+
+input {
+  &[type=file].error_field {
+    color: red;
+  }
+  &[type=text].error_field,
+  &[type=number].error_field {
+    border: 1px solid red;
+  }
+}
+
+textarea.error_field {
+  border: 1px solid red;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner-full-width/styles.css*/
+/**
+* Team-market
+*/
+
+.tm_logo {
+  width: 450px;
+}
+
+.tm_logo_img {
+  width: 120px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner-full-width/template_styles.css*/
+
+div {
+  &.catalog-list,
+  &.catalog-detail {
+    padding: 1em 0 0;
+  }
+}
+
+.bs-docs-sidenav h3 {
+  font-size: 18px;
+
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+@media (min-width: 1200px) {
+  .bs-docs-container {
+    max-width: 970px;
+  }
+  .bs-docs-sidenav {
+    width: 258px;
+    > li > a {
+      width: 230px \9;
+      /* Override the previous IE8-9 hack */
+    }
+  }
+}
+
+/* Start:/bitrix/templates/.default/components/bitrix/menu/horizontal_multilevel/style.css*/
+/* Customize the navbar links to be fill the entire space of the .navbar */
+@media (min-width: 980px) {
+  .navbar {
+    .navbar-inner {
+      padding: 0;
+
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+    }
+    .nav {
+      display: table;
+
+      width: 100%;
+      margin: 0;
+      li {
+        display: table-cell;
+        float: none;
+
+        width: 1%;
+        a {
+          font-weight: bold;
+
+          text-align: center;
+
+          border-right: 1px solid rgba(0, 0, 0, .1);
+          border-left: 1px solid rgba(255, 217, 98, .75);
+        }
+        &:first-child a {
+          border-left: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        &:last-child a {
+          border-right: 0;
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/bitrix/breadcrumb/breadcrumbs/style.css*/
+
+ul.breadcrumb-navigation {
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+
+  list-style: none;
+  li {
+    display: inline;
+
+    padding-left: 15px;
+    &:first-child {
+      padding-left: 0;
+
+      background: none;
+    }
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner-catalog/components/bitrix/menu/left/style.css*/
+
+.nav-list > .active > a {
+  color: #000;
+  background: #fc0;
+  text-shadow: 0 1px 0 #ffd962 !important;
+  &:hover,
+  &:focus {
+    color: #000;
+    background: #fc0;
+    text-shadow: 0 1px 0 #ffd962 !important;
+  }
+}
+
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+
+  padding: 9px 15px;
+
+  border: 0 none;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, .1) inset, -1px 0 0 rgba(0, 0, 0, .1) inset;
+  text-shadow: 0 1px 0 #ffd962 !important;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/nsandrey/mailform/write-us/style.css*/
+
+span.req {
+  color: #f00;
+}
+
+p.ok {
+  font-size: 12pt;
+
+  color: green;
+}
+
+font.errortext {
+  font-size: 12pt;
+
+  color: red;
+}
+
+input {
+  &[type=file].error_field {
+    color: red;
+  }
+  &[type=text].error_field,
+  &[type=number].error_field {
+    border: 1px solid red;
+  }
+}
+
+textarea.error_field {
+  border: 1px solid red;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner-catalog/styles.css*/
+/**
+* Team-market
+*/
+
+.tm_logo {
+  width: 450px;
+}
+
+.tm_logo_img {
+  width: 120px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner-catalog/template_styles.css*/
+
+div {
+  &.catalog-list,
+  &.catalog-detail {
+    padding: 0 0 0;
+  }
+}
+
+.bs-docs-sidenav {
+  margin: 15px 0 0;
+  padding: 0;
+
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+  h3 {
+    font-size: 18px;
+
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+  }
+  > {
+    li > a {
+      display: block;
+
+      margin: 0 0 -1px;
+      padding: 8px 14px;
+
+      color: rgba(51, 51, 51, 1);
+      border: 1px solid #e5e5e5;
+    }
+    .lvl2 > a {
+      padding-left: 30px;
+    }
+  }
+  .pip {
+    float: right;
+
+    margin-top: 2px;
+    margin-right: -6px;
+
+    opacity: .25;
+  }
+  > li > a:hover {
+    background-color: #f5f5f5;
+  }
+  a:hover .icon-chevron-right {
+    opacity: .5;
+  }
+  .active {
+    .icon-chevron-right,
+    a:hover .icon-chevron-right {
+      opacity: 1;
+    }
+  }
+  &.affix {
+    top: 40px;
+  }
+  &.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 270px;
+  }
+}
+
+
+@media (min-width: 980px) {
+  .navbar {
+    .navbar-inner {
+      padding: 0;
+
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+    }
+    .nav {
+      display: table;
+
+      width: 100%;
+      margin: 0;
+      li {
+        display: table-cell;
+        float: none;
+
+        width: 1%;
+        a {
+          font-weight: bold;
+
+          text-align: center;
+
+          border-right: 1px solid rgba(0, 0, 0, .1);
+          border-left: 1px solid rgba(255, 217, 98, .75);
+        }
+        &:first-child a {
+          border-left: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        &:last-child a {
+          border-right: 0;
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/bitrix/breadcrumb/breadcrumbs/style.css*/
+
+ul.breadcrumb-navigation {
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+
+  list-style: none;
+  li {
+    display: inline;
+
+    padding-left: 15px;
+    &:first-child {
+      padding-left: 0;
+
+      background: none;
+    }
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner/components/bitrix/menu/sidebar/style.css*/
+
+.bs-docs-sidenav {
+  padding: 0;
+  > li > a {
+    display: block;
+
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+
+    color: #333;
+    border: 1px solid #e5e5e5;
+  }
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/bizmedia/store.catalog.top/sidebar-specialoffers/style.css*/
+
+.equipment-list-card {
+  padding: 10px 14px;
+
+  text-align: center;
+
+  border: 1px solid rgba(235, 235, 235, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.specoffer-price {
+  color: rgba(153, 153, 153, 1);
+}
+
+.item-title {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/nsandrey/mailform/write-us/style.css*/
+
+span.req {
+  color: #f00;
+}
+
+p.ok {
+  font-size: 12pt;
+
+  color: green;
+}
+
+font.errortext {
+  font-size: 12pt;
+
+  color: red;
+}
+
+input {
+  &[type=file].error_field {
+    color: red;
+  }
+  &[type=text].error_field,
+  &[type=number].error_field {
+    border: 1px solid red;
+  }
+}
+
+textarea.error_field {
+  border: 1px solid red;
+}
+
+.tm_logo {
+  width: 450px;
+}
+
+.tm_logo_img {
+  width: 120px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/inner/template_styles.css*/
+
+div {
+  &.catalog-list,
+  &.catalog-detail {
+    padding: 1em 0 0;
+  }
+}
+
+.bs-docs-sidenav.nav-list > .active > a {
+  color: #000;
+  background-color: #ffd758;
+  text-shadow: 0 1px 0 #ffd962 !important;
+  &:hover,
+  &:focus {
+    color: #000;
+    background-color: #ffd758;
+    text-shadow: 0 1px 0 #ffd962 !important;
+  }
+}
+
+.nav.nav-list.bs-docs-sidenav {
+  margin: 15px 0 0;
+  padding: 0;
+
+  border-radius: 6px 6px 6px 6px;
+  background: none repeat scroll 0 0 #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .067);
+}
+
+@media (min-width: 1200px) {
+  .bs-docs-sidenav {
+    h3,
+    .h3 {
+      font-size: 18px;
+
+      border-bottom: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+  .bs-docs-container {
+    max-width: 970px;
+  }
+  .bs-docs-sidenav > li > a {
+    width: 230px \9;
+    /* Override the previous IE8-9 hack */
+  }
+}
+
+@media (min-width: 980px) {
+  .navbar {
+    .navbar-inner {
+      padding: 0;
+
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+    }
+    .nav {
+      display: table;
+
+      width: 100%;
+      margin: 0;
+      li {
+        display: table-cell;
+        float: none;
+
+        width: 1%;
+        a {
+          font-weight: bold;
+
+          text-align: center;
+
+          border-right: 1px solid rgba(0, 0, 0, .1);
+          border-left: 1px solid rgba(255, 217, 98, .75);
+        }
+        &:first-child a {
+          border-left: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        &:last-child a {
+          border-right: 0;
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+.equipment-list-card {
+  padding: 10px 14px;
+
+  text-align: center;
+
+  border: 1px solid rgba(235, 235, 235, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.specoffer-price {
+  color: rgba(153, 153, 153, 1);
+}
+
+.item-title {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/nsandrey/mailform/write-us/style.css*/
+
+span.req {
+  color: #f00;
+}
+
+p.ok {
+  font-size: 12pt;
+
+  color: green;
+}
+
+font.errortext {
+  font-size: 12pt;
+
+  color: red;
+}
+
+input {
+  &[type=file].error_field {
+    color: red;
+  }
+  &[type=text].error_field,
+  &[type=number].error_field {
+    border: 1px solid red;
+  }
+}
+
+textarea.error_field {
+  border: 1px solid red;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/main/styles.css*/
+/**
+* Team-market
+*/
+
+.tm_logo {
+  width: 450px;
+}
+
+.tm_logo_img {
+  width: 120px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/main/template_styles.css*/
+
+section {
+  padding-top: 30px;
+}
+
+#masthead-wrapper {
+  background: url(../img/bg02.jpg) no-repeat scroll left center;
+}
+
+.jumbotron {
+  margin: 50px 0;
+  .h1 {
+    font-size: 70px;
+  }
+  .glass {
+    padding: 25px;
+
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+div {
+  &.catalog-list,
+  &.catalog-detail {
+    padding: 1em 0 0;
+  }
+}
+
+.bs-docs-sidenav {
+  h3,
+  .h3 {
+    font-size: 18px;
+
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .bs-docs-sidenav {
+    width: 258px;
+  }
+}
