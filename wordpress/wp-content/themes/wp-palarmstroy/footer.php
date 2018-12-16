@@ -43,6 +43,25 @@
 </footer>
 
 <?php wp_footer(); ?>
+  <script type="text/javascript">
+    if (!window.BX) window.BX = {
+      message: function(mess) {
+        if (typeof mess == 'object')
+          for (var i in mess) BX.message[i] = mess[i];
+        return true;
+      }
+    };
+  </script>
+
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kernel_main.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/template_2d1eff7fb564d3eff202d4bfdf0f00d8.js"></script>
+  <script type="text/javascript">
+    bxSession.Expand(1440, '7a479b5c3d6b25714cc6005d1cd62a8c', false, '78a75a5b6f21cd92a88d974fb3bbcfef');
+  </script>
+  <!-- backcall -->
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.form.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/backformer.js"></script>
 <script type="text/javascript">
   if (document.documentElement) {
     document.documentElement.id = "js"
